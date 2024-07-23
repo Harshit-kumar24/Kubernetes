@@ -1,0 +1,16 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx1
+    image: nginx
+    ports:
+    - containerPort: 80
+  - name: nginx2
+    image: nginx
+    ports:
+    - containerPort: 81
+
+#kubectl apply -f pod.yml
