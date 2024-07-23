@@ -17,3 +17,5 @@ spec:
         image: nginx
         ports:
         - containerPort: 80
+
+#kubectl apply -f replicaSet.yml
